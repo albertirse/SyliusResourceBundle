@@ -1,14 +1,10 @@
 # SyliusResourceBundle
 
-There are plenty of things you need to handle for every single Resource in your web application.
+Есть много вещей, которые вам нужно обработать для каждого отдельного ресурса в вашем веб-приложении.
 
-Several "Admin Generators" are available for Symfony, but we needed something really simple, that will allow us to have reusable controllers
-but preserve the performance and standard Symfony workflow. We did not want to generate any code or write "Admin" class definitions in PHP.
-The big goal was to have exactly the same workflow as with writing controllers manually but without actually creating them!
+Для Symfony доступно несколько «генераторов администратора», но нам нужно было что-то действительно простое, что позволило бы нам иметь многоразовые контроллеры, но сохранило бы производительность и стандартный рабочий процесс Symfony. Мы не хотели генерировать какой-либо код или писать определения классов «Admin» на PHP. Большая цель заключалась в том, чтобы иметь точно такой же рабочий процесс, как при написании контроллеров вручную, но без их фактического создания!
 
-Another idea was not to limit ourselves to a single persistence backend.
-``Resource`` component provides us with generic purpose persistence services and you can use this bundle with multiple persistence backends.
-So far we support:
+Другая идея заключалась в том, чтобы не ограничиваться одним бэкендом с постоянством. ```Resource``` Компонент предоставляет нам универсальные службы сохраняемости, и вы можете использовать этот пакет с несколькими бэкэндами сохраняемости. Пока мы поддерживаем:
 
 * Doctrine ORM
 * Doctrine MongoDB ODM
@@ -16,17 +12,17 @@ So far we support:
 
 ## Resource system for Symfony applications.
 
-* [Installation](installation.md)
-* [Configuring Your Resources](configuration.md)
+* [Установка](installation.md)
+* [Настройка ваших ресурсов](configuration.md)
 * [Services](services.md)
 * [Routing](routing.md)
 * [Forms](forms.md)
-* [Getting a Single Resource](show_resource.md)
-* [Getting a Collection of Resources](index_resources.md)
-* [Creating Resources](create_resource.md)
-* [Updating Resources](update_resource.md)
-* [Deleting Resources](delete_resource.md)
-* [Configuration Reference](reference.md)
+* [Получение одного ресурса](show_resource.md)
+* [Получение коллекции ресурсов](index_resources.md)
+* [Создание ресурсов](create_resource.md)
+* [Обновление ресурсов](update_resource.md)
+* [Удаление ресурсов](delete_resource.md)
+* [Справочник по конфигурации](reference.md)
 
 ## Learn more
 
